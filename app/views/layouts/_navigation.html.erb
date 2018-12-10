@@ -1,7 +1,5 @@
 <div class="ui small teal inverted menu">
-        <a class=" item">
-          ChatyRoom
-        </a>
+  <%= link_to "Room", root_path, class: "item" %>
         <a class="item">
           Messages
         </a>
@@ -9,7 +7,7 @@
           <div class="ui dropdown item">
             Account <i class="caret down icon"></i>
             <div class="menu">
-              <a class="item">Log In</a>
+              <%= link_to "Log In", login_path, class: "item" %>
               <a class="item">Log Out</a>
               <a class="item">Sign Up</a>
             </div>
