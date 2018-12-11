@@ -7,34 +7,7 @@
         <div class="ui fluid raised card chatbox">
             <div class="content">
                 <div class="ui feed">
-                    <div class="event">
-                        <div class="content">
-                        <div class="summary">
-                            <a>Elliot Fu</a> added <a>Jenny Hess</a> as a friend
-                        </div>
-                        </div>
-                    </div>
-                    <div class="event">
-                        <div class="content">
-                            <div class="summary">
-                                <a>Stevie Feliciano</a> added <a>Elliot Fu</a> as a friend
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event">
-                        <div class="content">
-                        <div class="summary">
-                            <a>Helen Troy</a> added <a>Christian Rocha</a> as a friend
-                        </div>
-                        </div>
-                    </div>
-                    <div class="event">
-                        <div class="content">
-                        <div class="summary">
-                            <em>Christian Rocha</em>: Text Message
-                        </div>
-                        </div>
-                    </div>
+                    <%= render @messages %>
                 </div>
             </div>
             <div class="extra content">
@@ -54,15 +27,15 @@
         <div class="ui fluid raised card chatbox">
             <div class="content">
                     <div class="ui inverted teal vertical menu">
-                    <a class=" item">
-                        Home
-                    </a>
-                    <a class="item">
-                        Messages
-                    </a>
-                    <a class="item">
-                        Friends
-                    </a>
+                        <a class=" item">
+                            Home
+                        </a>
+                        <a class="item">
+                            Messages
+                        </a>
+                        <a class="item">
+                            Friends
+                        </a>
                     </div>
             </div>
         </div>

@@ -12,3 +12,8 @@ User.create(email: "karim@example.com", username: "karim", password: "password")
 User.create(email: "rahim@example.com", username: "rahim", password: "password")
 User.create(email: "john@example.com", username: "john", password: "password")
 User.create(email: "kim@example.com", username: "kim", password: "password")
+
+Message.create(body: "im timtim", user: User.last)
+Message.create(body: "im kimkim", user: User.first)
+Message.create(body: "im jimjim", user: User.second)
+Message.create(body: "im asdasd", user: User.third)
